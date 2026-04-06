@@ -44,7 +44,7 @@ header ul li a:hover {
 
 #HeroSeccion{
     padding: 100px 10%;
-    background-image: url("/imagenes/HeroSection.png");
+    background-image: url("imagenes/HeroSection.png");
     background-repeat: no-repeat;
     background-size: cover;     
     background-position: center; 
