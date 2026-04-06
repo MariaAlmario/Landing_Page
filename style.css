@@ -1,0 +1,336 @@
+*{
+    color: rgb(103, 99, 96);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #111827;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  flex: 1; 
+  text-align: center;
+}
+
+header ul li img {
+  width: 60px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.4);
+}
+
+header ul li a {
+  display: block; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+header ul li a:hover {
+  color: #f4b400;
+}
+
+#HeroSeccion{
+    padding: 100px 10%;
+    background-image: url("/imagenes/HeroSection.png");
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-position: center; 
+    text-align: center;
+}
+
+#HeroSeccion h1 {
+    color: #f5f8ff;
+    font-size: 4vw;
+     text-shadow: 4px 4px 20px rgb(0, 0, 0);
+}
+
+#HeroSeccion h3 {
+    color: #f5f8ff;
+    font-size: 2vw;
+     text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+
+#Trigger1{
+    padding: 140px 10%;
+    background-image: url("/imagenes/Trigger1.png");
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-position: center; 
+    text-align: center;
+    border-radius:30px;
+    box-shadow: 5px 5px 15px rgb(18, 64, 247);
+}
+
+#Trigger1 td{
+    color: #f5f8ff;
+    font-size: 2.6vw;
+}
+
+#Trigger2{
+    padding: 140px 10%;
+    background-image: url("/imagenes/Trigger2.png");
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-position: center; 
+    text-align: center;
+    border-radius:30px;
+    box-shadow: 5px 5px 15px rgb(247, 197, 18);
+}
+
+#Trigger2 td{
+    color: #0b1c43;
+    font-size: 2.3vw;
+}
+
+button {
+  background-color: #f4b400;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #ffbb00;
+}
+
+#Beneficios{
+    padding: 60px 0%;
+    background-color: #f8f9ff;
+    text-align: center;
+}
+
+#Beneficios h1{
+    color: #1e2a78;
+}
+
+#Beneficios .Titulo{
+    color: #ffffff;
+    background-color: #304ffe;
+}
+
+#Beneficios table {
+  border-collapse: separate;
+  border-spacing: 15px; /* 🔥 espacio ENTRE td */
+  margin: 0 auto; /* 🔥 centra la tabla */
+}
+
+#Beneficios td {
+  width: 200px;
+  height: 100px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px rgba(241, 176, 12, 0.4);
+  padding: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#Explicacion {
+    padding: 60px 0%;
+    background-color: #f8f9ff;
+    text-align: center;
+}
+
+#Explicacion h1{
+    color: #f4b400;
+}
+
+#Explicacion div{
+    color: #0f2f7b;
+}
+
+#Explicacion table {
+  width: 100%;
+  color: #0f2f7b;
+  border-collapse: collapse;
+}
+
+#Explicacion tr {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 🔥 separación real */
+  margin-bottom: 20px;
+}
+
+#Explicacion td {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+#Explicacion tr:first-child td {
+  background: #959aecdb;
+  color: white;
+  font-weight: bold;
+}
+
+#Explicacion td:hover {
+  transform: translateY(-8px);
+}
+
+.testimonios{
+    padding: 60px 10%;
+    background: #f8f9ff;
+    text-align: center;
+}
+
+.testimonios h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #1e2a78;
+}
+
+.contenedor-testimonios{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover{
+    transform: translateY(-8px);
+}
+
+.tarjeta p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.tarjeta h4{
+    color: #f4b400;
+    font-size: 15px;
+}
+
+.faq{
+    padding: 80px 10%;
+    background: #f5f8ff;
+}
+
+.faq h2{
+    text-align: center;
+    color: #1e2a78;
+    margin-bottom: 40px;
+}
+
+.faqItem{
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.faqPregunta{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #202170;
+}
+
+.faqRespuesta{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 20px;
+}
+
+.faqRespuesta p{
+    padding: 15px 0;
+    color: #555;
+}
+
+#PreFooter{
+    background: linear-gradient(135deg, #1e2a78, #304ffe);
+    color: white;
+    text-align: center;
+    padding: 80px 10%;
+    border-radius: 30px 30px 0 0;
+}
+
+#PreFooter h2{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#PreFooter p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#PreFooter button{
+    padding: 14px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #f4b400;
+    color: #1e2a78;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.footerLinks{
+    margin: 20px 0;
+}
+
+.footerLinks a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footerLinks a:hover{
+    color: #f4b400;
+}
+
+copyright{
+    color: #aaa;
+}
